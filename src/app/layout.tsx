@@ -5,7 +5,10 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
 
 export const metadata: Metadata = {
-  title: 'devstore | julia bresolin',
+  title: {
+    template: '%s | devstore',
+    default: 'home',
+  },
   description: '',
 }
 
